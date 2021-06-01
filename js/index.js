@@ -26,3 +26,11 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+
+function validateForm() {
+  var x = document.forms["survey-form"]["number"].value;
+  if ((typeof x) !=="number") {
+    alert("Name must be a number");
+    return false;
+  }
+}
