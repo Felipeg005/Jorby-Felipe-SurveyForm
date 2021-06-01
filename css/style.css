@@ -4,3 +4,8 @@ body{
     flex-direction: column;
     background: url(https://wallpaperaccess.com/full/2454628.png) no-repeat fixed center;
 }
+
+h1, p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
