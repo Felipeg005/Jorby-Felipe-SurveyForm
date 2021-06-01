@@ -26,13 +26,42 @@
 
     <h1 id="title">Contact Form</h1>
     <p id="description">This is our contact form, we'll be on touch!</p>
+    
     <form id="survey-form">
+      <ul class="errorMessages"></ul>
+      
+      <label id="name-label">Name</label>
+      <input id="name" type="text" aria-require="true" placeholder="FULL Name"><br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" require="true" placeholder="example@gmail.com"><br>
+      <label id="number-label" for="number">Number</label><br>
+      <input type="number" id="number" name="number" value="0" min="1" max="10" require="true" placeholder="0"><br>
+      <label for="cars">Choose a car:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select><br>
+      <label><input type="checkbox" id="cbox1" value="2002"> 2002</label><br>
 
-
-      <label id="number" for="number">Phone Number</label><br>
-      <input type="number" id="number" name="number" value="0" min="1" max="10" onsubmit="return validateForm()"><br>
-
-      <input type="submit" value="Submit">
-    </form>
+    <input type="checkbox" id="cbox2" value="2003"> <label for="cbox2">2003</label><br>
+        <label for="textarea">Leave message</label><br>
+        <label>Employer statut</label>
+        <input type="radio" name="gender" value="employed" checked><br>
+        <input type="radio" name="gender" value="freelancer" ><br>
+        <input type="radio" name="gender" value="applier" ><br>
+        <input type="radio" name="gender" value="unemployed" >
+    
+      <textarea id="textarea" name="w3review" rows="4" cols="50">
+      
+      </textarea>
+      <div class="buttons">
+        <button id="submit">Submit</button>
+    </div>
+  </form>
+    
+    
+   
   </body>
 </html>
