@@ -5,7 +5,8 @@ body{
     background: url(https://wallpaperaccess.com/full/2454628.png) no-repeat fixed center;
 }
 
-h1, p{
+h1, p, form{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
